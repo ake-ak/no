@@ -9,4 +9,4 @@
 Run this single command to install the binary and set up your safety alias automatically. This works on **Alpine (sh)**, **Ubuntu (bash)**, **macOS (zsh)**, and more.
 
 ```bash
-curl -fsSL [https://raw.githubusercontent.com/ake-ak/no/main/install.sh](https://raw.githubusercontent.com/ake-ak/no/main/install.sh) | sh
+curl -fsSL https://raw.githubusercontent.com/ake-ak/no/main/install.sh | sh
