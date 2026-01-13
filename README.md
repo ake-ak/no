@@ -1,21 +1,12 @@
-# no - Safe Choice
+# 🛡️ no - The Safe rm Replacement
 
+**no** is a lightweight, high-performance tool written in Rust designed to prevent accidental data loss. It replaces the dangerous `rm` command with a safe alternative that moves files to a trash directory instead of deleting them permanently.
 
-'no' is a safe and fast version of rm or rm -rf. sometimes we mistakely or without knowing delete our projects and some people do this...
-~~~ 
-rm -rf / #this causes your OS to become useless.
-~~~
-And to prevent this we make ths tool this will make the 
-~~~
-rm or rm -rf *
-~~~
-much secure.
+---
 
-to use this you'll need to install it then you can use i and you 'rm' will be replaced by 'no'. Not like it willl compltly gone but it will put a safety suit on the 'rm' command.
+## 🚀 Quick Install (All Systems)
 
-~~~
-rm -> no or rm -rf to no -rf
+Run this single command to install the binary and set up your safety alias automatically. This works on **Alpine (sh)**, **Ubuntu (bash)**, **macOS (zsh)**, and more.
 
-#instead of using rm you can use no.
-#if you use rm then it will work like #before but if you use 'no' then it will #put #a safety suit on 'rm'.
-~~~
+```bash
+curl -fsSL [https://raw.githubusercontent.com/ake-ak/no/main/install.sh](https://raw.githubusercontent.com/ake-ak/no/main/install.sh) | sh
